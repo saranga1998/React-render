@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import UseState from './Components/UseState/UseState'
 import UseReduser from './Components/UseReduser/UseReduser'
+import ObjectUseState from './Components/Immutable State/ObjectUseState'
+import ArrayUseState from './Components/Immutable State/ArrayUseState'
 
 function App() {
   
@@ -11,7 +13,9 @@ function App() {
   return (
     <>
       {/* <UseState/> */}
-      <UseReduser/>
+      {/* <UseReduser/> */}
+      {/* <ObjectUseState/> */}
+      <ArrayUseState/>
     </>
   )
 }
