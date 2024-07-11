@@ -7,6 +7,7 @@ import UseReduser from './Components/UseReduser/UseReduser'
 import ObjectUseState from './Components/Immutable State/ObjectUseState'
 import ArrayUseState from './Components/Immutable State/ArrayUseState'
 import ParentTwo from './Components/Optimization/ParentTwo'
+import ParentThree from './Components/Optimization/ParentThree'
 
 function App() {
   
@@ -17,7 +18,8 @@ function App() {
       {/* <UseReduser/> */}
       {/* <ObjectUseState/> */}
       {/* <ArrayUseState/> */}
-      <ParentTwo/>
+      {/* <ParentTwo/> */}
+      <ParentThree/>
     </>
   )
 }
