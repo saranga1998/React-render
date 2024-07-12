@@ -8,6 +8,7 @@ import ObjectUseState from './Components/Immutable State/ObjectUseState'
 import ArrayUseState from './Components/Immutable State/ArrayUseState'
 import ParentTwo from './Components/Optimization/ParentTwo'
 import ParentThree from './Components/Optimization/ParentThree'
+import { ContextParent } from './Components/Context/ContextParent'
 
 function App() {
   
@@ -19,7 +20,8 @@ function App() {
       {/* <ObjectUseState/> */}
       {/* <ArrayUseState/> */}
       {/* <ParentTwo/> */}
-      <ParentThree/>
+      {/* <ParentThree/> */}
+      <ContextParent/>
     </>
   )
 }
